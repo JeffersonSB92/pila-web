@@ -1,0 +1,115 @@
+.dashboard {
+  width: 100%;
+  margin-left: 300px; /* Largura da sidebar */
+  margin-right: 50px;
+  padding: 40px 0px;
+  /* justify-content: space-around; */
+  /* margin-top: 20px; */
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  /* padding: 10px; */
+  background-color: #4E4E50;
+  /* border: 1px solid white; */
+  width: 50vh;
+  height: 90vh;
+  border-radius: 15px;
+  /* margin-right: 40px; */
+  /* margin-bottom: 20px; */
+}
+
+.column-left .card {
+  background-color: #171717;
+  /* border: 1px solid white; */
+  width: 40vh;
+  height: 25vh;
+  border-radius: 15px;
+}
+
+.column-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #4E4E50;
+  /* border: 1px solid white; */
+  width: 170vh;
+  height: 90vh;
+  border-radius: 15px;  
+}
+
+.column-right-into-1 {
+  width: 50vh;
+  height: 80vh;
+  /* background-color: green; */
+  background-color: #171717;
+  /* border: 1px solid white; */
+  border-radius: 15px;
+}
+
+.column-right-into-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 110vh;
+  height: 80vh;
+  /* background-color: red; */
+}
+
+.column-right-into-2 .card {
+  width: 110vh;
+  height: 38vh;
+  /* background-color: yellow; */
+  background-color: #171717;
+  /* border: 1px solid white; */
+  border-radius: 15px;
+
+}
+
+.row-into-column-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.column-left .card h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.column-right-into-1 h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.column-right-into-2 .card h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
