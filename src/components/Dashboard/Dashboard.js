@@ -1,7 +1,7 @@
 import React from 'react';
 import './Dashboard.css';
-import Widget from '../Widget/Widget';
-import WidgetMajor from '../Widget/WidgetMajor';
+import Balance from '../Widget/Balance/Balance';
+import Goals from '../Widget/Goals/Goals';
 
 function Dashboard() {
   return (
@@ -9,15 +9,14 @@ function Dashboard() {
       <div className='row-1'>
 
         <div className='column-left'>
-          <div className='card'>
-            <h2>Receitas</h2>
+          <div className='saldo'>
+            <h2>Saldo</h2>
           </div>
-          <div className='card'>
-            <h2>Despesas</h2>
-          </div>
-          <div className='card'>
+          <Balance />
+          <Goals />
+          {/* <div className='card'>
             <h2>Objetivos</h2>
-          </div>
+          </div> */}
         </div>
 
         <div className='column-right'>

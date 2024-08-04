@@ -7,6 +7,17 @@
   /* margin-top: 20px; */
 }
 
+.saldo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2D2D2E;
+  /* border: 1px solid white; */
+  width: 40vh;
+  height: 10vh;
+  border-radius: 15px;
+}
+
 .row-1 {
   display: flex;
   flex-direction: row;
@@ -36,10 +47,10 @@
 }
 
 .column-left .card {
-  background-color: #171717;
+  background-color: #2D2D2E;
   /* border: 1px solid white; */
   width: 40vh;
-  height: 25vh;
+  height: 45vh;
   border-radius: 15px;
 }
 
@@ -59,7 +70,7 @@
   width: 50vh;
   height: 80vh;
   /* background-color: green; */
-  background-color: #171717;
+  background-color: #2D2D2E;
   /* border: 1px solid white; */
   border-radius: 15px;
 }
@@ -78,7 +89,7 @@
   width: 110vh;
   height: 38vh;
   /* background-color: yellow; */
-  background-color: #171717;
+  background-color: #2D2D2E;
   /* border: 1px solid white; */
   border-radius: 15px;
 

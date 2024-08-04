@@ -13,6 +13,7 @@ function Sidebar() {
         <li><a href="#expenses">Despesas</a></li>
         <li><a href="#incomes">Receitas</a></li>
         <li><a href="#categories">Categorias</a></li>
+        <li><a href="#categories">Objetivos</a></li>
       </ul>
       <ul className="menu-bottom">
         <Divider orientation="horizontal" sx={{ backgroundColor: 'white' }}/>

@@ -1,0 +1,16 @@
+.income {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    background-color: #0E261A;
+    border-radius: 10px;
+
+}
+
+h2 {
+    color: white;
+}
